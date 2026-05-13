@@ -1,0 +1,13 @@
+{
+	"name": "usecase4_restapi_inr",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "RestService_case1",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "RestResource",
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,17 @@
+{
+	"name": "Trigger_zct",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Stopped",
+		"pipelines": [],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Month",
+				"interval": 1,
+				"startTime": "2026-04-22T13:44:00Z",
+				"timeZone": "UTC"
+			}
+		}
+	}
+}

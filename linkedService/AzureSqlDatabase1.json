@@ -1,0 +1,17 @@
+{
+	"name": "AzureSqlDatabase1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "sunil-sqlserver-db2.database.windows.net",
+			"database": "azuredwdb",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "azure_dw_sunil",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDYyMjE2OEZDLTI4M0QtNDEwMS04NDA0LUEyMjQ1QkU4NkYzOF81N2NlNjkxZi1jZGU1LTQ4ODAtOGI2ZC0xODFhYmRkZDNkMjEiDQp9"
+		}
+	}
+}

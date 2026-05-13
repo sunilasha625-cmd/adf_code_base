@@ -1,0 +1,15 @@
+{
+	"name": "sunildatabricksadf",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Enabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ddbea5b0-ef48-482c-ac0c-9342d274f8e0",
+		"tenantId": "aefed49b-b0ec-45c3-a84b-06157382e5f5"
+	}
+}

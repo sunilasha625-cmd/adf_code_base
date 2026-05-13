@@ -1,0 +1,16 @@
+{
+	"name": "usecase2_gcpMySql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "GCP_MySql",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "MySqlTable",
+		"schema": [],
+		"typeProperties": {
+			"tableName": "`dim_tower_source`"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
